@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Layout - Grid</title>
+    <style>
+        div{
+           box-shadow: 0 0 3px #333;
+           border-radius: 5px;
+           padding: 1rem;
+
+        }
+
+        main{
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 1rem;
+        }
+        h1{
+            text-align: center;
+            margin: 0;
+        
+        
+        }
+        #box1,#box2{
+            display: grid;
+            place-items: center;
+        }
+        #box2{
+            background-color: yellow;
+        }
+        
+
+        
+    </style>
+</head>
+
+<body>
+    <main>
+        <div id="box1">
+            <article>
+            <div>Django</div>
+            <button>Know more</button>
+        </article>
+        </div>
+        <div>
+            <p>Tenetur fuga ab enim id nihil officia deserunt, quam ad? Commodi quidem quas veniam id sequi rerum. At,
+                consectetur rerum. Sint odio ipsum quasi enim, qui ab adipisci velit rem.</p>
+        </div>
+        <div id="box2">
+            <article>
+            <h1>Html</h1>
+            <button>Know more</button>
+            </article>
+        </div>
+        <div>
+            <p>Obcaecati dolores fugiat accusamus earum blanditiis tempora autem iste voluptates delectus non. Nesciunt
+                nobis, quidem commodi qui placeat dignissimos non esse hic autem ratione iure porro repellendus
+                consequatur harum modi?</p>
+        </div>
+        <div>
+            <p>Error officia accusantium distinctio asperiores fugit eaque architecto, labore quasi. Eaque sapiente
+                consequuntur eius cumque beatae quis ipsam tenetur neque unde voluptas consectetur dolor error deserunt,
+                omnis quod repellendus repellat?</p>
+        </div>
+        <div>
+            <p>Eligendi minus error quae. Velit hic quas, culpa at adipisci nisi dolores. Accusamus minima cupiditate
+                quaerat, praesentium officiis totam illo id tempora temporibus impedit pariatur minus error libero
+                molestias cum.</p>
+        </div>
+    </main>
+</body>
+
+</html>
